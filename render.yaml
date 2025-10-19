@@ -6,5 +6,5 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python start_bot.py
     envVars:
-      - key: BOT_TOKEN
+      - key: DISCORD_BOT_TOKEN
         sync: false
